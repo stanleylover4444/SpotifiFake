@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".ui.signUp.SignUpStep4Activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/mBackSignUpStep4"
+                android:layout_width="29dp"
+                android:layout_height="32dp"
+
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/button_background_withsomthing"
+                android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+                android:gravity="center"
+                android:paddingLeft="9dp" />
+
+            <TextView
+                android:id="@+id/Title1_SignUpStep4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="20dp"
+                android:text="Create account"
+                android:textColor="@color/button_text_withsomthing"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearLayout1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Title2_SignUpStep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="34dp"
+                android:paddingTop="15dp"
+                android:text="What’s your name?"
+                android:textColor="@color/button_text_withsomthing"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/EditText_Name_SignUpStep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:background="@drawable/rounded_edittext_background"
+
+
+                android:inputType="text"
+                android:padding="10dp"
+                android:textColor="@android:color/white" />
+
+            <TextView
+                android:id="@+id/Title3_SignUpStep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="3dp"
+                android:layout_marginStart="34dp"
+                android:text="This appears on your spotify profile"
+                android:textColor="@color/button_text_withsomthing"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="35dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/Text1_SignUpStep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="3dp"
+                android:layout_marginStart="34dp"
+                android:paddingTop="15dp"
+                android:text="By tapping on “Create account”, you agree to the spotify Terms of Use."
+                android:textColor="@color/button_text_withsomthing"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Text2_SignUpStep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="3dp"
+                android:layout_marginStart="34dp"
+                android:paddingTop="15dp"
+                android:text="Terms of Use. "
+                android:textColor="@color/button_background_signfree"
+                android:textSize="10dp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Text3_SignUpStep4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="3dp"
+                android:layout_marginStart="34dp"
+                android:paddingTop="15dp"
+                android:text="To learn more about how Spotify collect, uses, shares and protects your personal data, Please see the Spotify Privacy Policy."
+                android:textColor="@color/button_text_withsomthing"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Text4_SignUpStep4"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginVertical="3dp"
+                android:layout_marginStart="34dp"
+                android:paddingTop="15dp"
+                android:text="Privacy Policy."
+                android:textColor="@color/button_background_signfree"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_below="@id/linearLayout2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Text5_SignUpStep4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="3dp"
+
+
+                android:layout_marginStart="34dp"
+                android:layout_weight="1"
+
+                android:text="Please send me news and offers from Spotify."
+                android:textColor="@color/button_text_withsomthing"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="133dp"
+                android:layout_marginTop="10dp"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@id/linearLayout3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/Text6_SignUpStep4"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="3dp"
+                android:layout_marginStart="34dp"
+                android:layout_weight="1"
+                android:text="Share my registration data with Spotify’s content providers for marketing purposes."
+                android:textColor="@color/button_text_withsomthing"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_below="@id/linearLayout4"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/mCreateSignUpStep4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="Create an account"
+                android:textColor="@color/button_text_signfree"
+                android:textSize="15sp"
+                android:textStyle="bold"
+
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

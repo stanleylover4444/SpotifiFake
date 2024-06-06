@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="button_background_withsomthing">#000000</color> <!-- Màu nền -->
+    <color name="button_text_withsomthing">#FFFFFF</color> <!-- Màu văn bản -->
+
+
+    <color name="button_background_signfree">#1ED760</color> <!-- Màu nền -->
+    <color name="button_text_signfree">#000000</color> <!-- Màu văn bản -->
+
+    <color name="colorPrimary">#FFF</color>
+
+    <color name="button_background_next">#535353</color> <!-- Màu nền -->
+
+
+</resources>

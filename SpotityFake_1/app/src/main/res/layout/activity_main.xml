@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".ui.main.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        app:srcCompat="@drawable/s" />
+
+    <TextView
+        android:id="@+id/Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="10dp"
+        android:text="Millions of Songs."
+        android:textColor="@color/button_text_withsomthing"
+
+        android:textSize="28dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/Title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginBottom="10dp"
+        android:text="Free on Spotify."
+        android:textColor="@color/button_text_withsomthing"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mSignUpFreeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/button_background_signfree"
+        android:text="Sign up free"
+        android:textColor="@color/button_text_signfree"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/mSignUpGGButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="@color/button_background_withsomthing"
+        android:drawableLeft="@drawable/gg_avg"
+        android:gravity="center"
+        android:paddingLeft="29dp"
+        android:text="Continue with Google"
+
+        android:textColor="@color/button_text_withsomthing"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/mSignUpFBButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginBottom="10dp"
+
+        android:background="@drawable/button_border"
+        android:backgroundTint="@color/button_background_withsomthing"
+        android:drawableLeft="@drawable/avgfb"
+        android:gravity="center"
+        android:paddingLeft="29dp"
+        android:paddingRight="10dp"
+        android:text="Continue with Facebook"
+        android:textColor="@color/button_text_withsomthing"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/mSignUpAPButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_border"
+        android:backgroundTint="@color/button_background_withsomthing"
+        android:drawableLeft="@drawable/avg_apple"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Continue with Apple"
+        android:textColor="@color/button_text_withsomthing"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/LoginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:text="Log in"
+        android:textColor="@color/button_text_withsomthing"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
